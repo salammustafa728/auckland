@@ -21,3 +21,11 @@
     opacity: 1;
     height: 60%;
 }
+@media only screen and (max-width: 990px) {
+    .cost112{
+      position: relative;
+      top: 36px;
+      left: 90%; 
+      color: #1eb3ec;
+    }
+  }

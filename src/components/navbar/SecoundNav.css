@@ -60,6 +60,7 @@
    position: fixed;
    bottom: 0;
    background-color: white;
+   width: 100%;
   }
   .search input  {
     display: none;
@@ -75,13 +76,14 @@
     display: none;
   }
   .search{
-    top: -10px;
-right: 10px;
+    top: -16px;
+    right: 7px;
   }
  .icondisplay{
    display: block;
    width: 30px;
    font-size: 10px;
+   margin-right: 23px
  }
  .imgIcon{
    margin-left: 10px;
@@ -89,51 +91,59 @@ right: 10px;
  .fa-search{
   margin-top: 13px;
  }
+ .search .fa-search {
+  position: absolute;
+  top: 13px;
+  left: 3px;
+  color: gray;
 }
-@media only screen and (max-width: 992px) {
+.cart2{
+  position: relative;
+  left: -12px;
+}
+}
+@media only screen and (max-width: 990px) {
   .maindiv {
     position: fixed;
     bottom: 0;
     background-color: white;
-    height: 100px;
-    width: 100%;
-    z-index: 10;
+    z-index: 5;
    }
-   .search .fa-search {
+   .search input  {
+     display: none;
+   }
+   .SearchTxt{
+     display: inline;
+     position: absolute;
+     margin-top: 44px;
+     right: 92px;
+     color: gray;
+   }
+   .txt{
+     display: none;
+   }
+   .search{
+     top: -16px;
+     right: 7px;
+   }
+  .icondisplay{
+    display: block;
+    width: 30px;
+    font-size: 10px;
+    margin-right: 23px
+  }
+  .imgIcon{
+    margin-left: 10px;
+  }
+  .fa-search{
+   margin-top: 13px;
+  }
+  .search .fa-search {
     position: absolute;
     top: 13px;
-    left: -67px;
-  }
-  .SearchTxt {
-    position: absolute;
-    right: 156px;
-  }
-  .cart2{
-    position: relative;
-    left: -14px;
+    left: 3px;
+    color: gray;
   }
 }
 
-/* @media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
-  .maindiv {
-    position: fixed;
-    bottom: 0;
-    background-color: white;
-    height: 100px;
-    width: 100%;
-    z-index: 10;
-   }
-   .search .fa-search {
-    position: absolute;
-    top: 13px;
-    left: -67px;
-  }
-  .SearchTxt {
-    position: absolute;
-    right: 156px;
-  }
-  .cart2{
-    position: relative;
-    left: -14px;
-  }
-} */
+

@@ -91,7 +91,7 @@ input.email-subscription__input {
 }
 .divSearch2 {
 }
-@media (max-width: 767px) {
+@media (max-width: 600px) {
   .footer-clean .item {
     text-align: center;
     padding-bottom: 20px;
@@ -107,7 +107,7 @@ input.email-subscription__input {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 990px) {
   .footer-clean .item.social {
     text-align: center;
   }

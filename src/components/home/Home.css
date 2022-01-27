@@ -8,12 +8,15 @@ body{
     gap: 10px;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 990px) {
    .mainDiv{
     display: grid;
-    grid-template-rows: 999px 300px 2990px 1520px 1520px 1550px 1565px 1520px 1520px 1510px 1520px;     
+    grid-template-rows: 1000px 300px 4390px 3000px 3000px 3000px 3000px 3000px 3000px 3000px 3000px;     
    }
    } 
-@media only screen and (max-width: 992px) {
-   
-   }
+   @media only screen and (max-width: 600px) {
+    .mainDiv{
+     display: grid;
+     grid-template-rows: 900px 300px 2999px 1600px 1650px 1650px 1665px 1620px 1620px 1610px 1620px;     
+    }
+    } 

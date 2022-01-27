@@ -88,7 +88,7 @@ export class footer extends Component {
                       <input
                         type="text"
                         class="form-control"
-                        placeholder="Enter Email address"
+                        placeholder="Enter Email"
                       />
                       <button className="btnSubscribe2">Subscribe</button>
                       </div>

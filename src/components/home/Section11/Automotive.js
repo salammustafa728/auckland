@@ -35,9 +35,9 @@ export class Automotive extends Component {
                   <p className="discription">
                   Urban Global Ltd
                     </p>
-                    <p className="cost"> from </p>
+                    <p className="cost4"> from </p>
                     <p className="costStyle"> $20</p>
-                    <p className="discount"><s>$35</s></p>
+                    <p className="discount4"><s>$35</s></p>
                   </Card.Text>
                 </Card.Body>
               </Card>

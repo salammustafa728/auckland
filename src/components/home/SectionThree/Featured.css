@@ -1,47 +1,47 @@
-.Featured{
-    position: relative;
+.Featured {
+  position: relative;
 }
-.btnView{
-    border-radius: 5px;
-    background-color: #01b2ee;
-    color: #fff;
-    display: inline-block;
-    vertical-align: middle;
-    line-height: 35px;
-    height: 45px;
-    padding-left: 16px;
-    transition: all .15s ease-out;
-    position: relative;
-    top: -52px;
-    left: 445px;
+.btnView {
+  border-radius: 5px;
+  background-color: #01b2ee;
+  color: #fff;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 35px;
+  height: 45px;
+  padding-left: 16px;
+  transition: all 0.15s ease-out;
+  position: relative;
+  top: -52px;
+  left: 445px;
 }
 
-.titleSection{
-    color: #01b2ee;
+.titleSection {
+  color: #01b2ee;
 }
-.CardDiv1{
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 10px;
-    margin-top: 10px;
+.CardDiv1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
-.cardsStyle1{
-    width: 20%;
-    margin: auto;
+.cardsStyle1 {
+  width: 20%;
+  margin: auto;
 }
-.discount1{
-    position: relative;
-    top: 31px;
-    left: 30%;
+.discount1 {
+  position: relative;
+  top: 31px;
+  left: 30%;
 }
-.discount2{
-    position: relative;
-    top: 31px;
-    left: 63%;
+.discount2 {
+  position: relative;
+  top: 31px;
+  left: 63%;
 }
-.card-desc{
-    opacity: 0;
-    position: absolute;
+.card-desc {
+  opacity: 0;
+  position: absolute;
   height: 0;
   top: 0;
   opacity: 0;
@@ -49,29 +49,58 @@
   color: white;
   cursor: pointer;
 }
-.card-desc p{
+.card-desc p {
+  position: relative;
+  top: 30px;
+  text-align: center;
+}
+.card-desc:hover {
+  opacity: 1;
+  height: 60%;
+}
+@media only screen and (max-width: 990px) {
+  .CardDiv1 {
+    display: block;
+  }
+  .cardsStyle1 {
+    width: 55%;
+  }
+  .btnView {
     position: relative;
-    top: 30px;
-    text-align: center;
+    top: 3px;
+    left: 7px;
+  }
+  .discount1 {
+    position: relative;
+    top: 31px;
+    left: 45%;
+  }
+  .costStyle {
+    font-size: 25px;
+    margin-right: -13px;
+    bottom: -9px;
+  }
+  .cost1 {
+    position: relative;
+    top: 32px;
+    left: 90%;
+    color: #01b2ee;
+  }
+  .cost11 {
+    position: relative;
+    top: 2px;
+    left: 90%;
+    color: #01b2ee;
+  }
+  .discount2 {
+    position: relative;
+    top: 31px;
+    left: 70%;
+  }
 }
-.card-desc:hover{
-    opacity: 1;
-    height: 60%;
+@media only screen and (max-width: 1024px) {
+  .discount21 {
+    position: relative;
+    left: 78%;
+  }
 }
-@media only screen and (max-width: 600px) {
-    .CardDiv1{
-        display: block;
-        /* flex-wrap: nowrap; */
-    }
-    .cardsStyle1{
-        width: 55%;
-    }
-    .btnView{
-        position: relative;
-top: 3px;
-left: 7px;
-    }
-   } 
-@media only screen and (max-width: 992px) {
-  
-   }

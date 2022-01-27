@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./Featured.css";
-import arrow from "../../images/back arrow.jpg";
 import Card from "react-bootstrap/Card";
 import heart from "../../images/addheart.png";
 
@@ -30,7 +29,7 @@ export class SectionThree extends Component {
                 <Card.Text>
                   <p className="discription"> HelloFresh</p>
                   <p className="subTitle"> 45 bought </p>
-                  <p className="cost"> from </p>
+                  <p className="cost1"> from </p>
                   <p className="costStyle">$43.93 </p>
                   <p className="discount1"><s>$93.93</s></p>
                 </Card.Text>
@@ -53,9 +52,9 @@ export class SectionThree extends Component {
                 <Card.Text>
                   <p className="discription">Auckland City </p>
                   <p className="subTitle"> 38 bought </p>
-                  <p className="cost"> from </p>
+                  <p className="cost1"> from </p>
                   <p className="costStyle"> $10 </p>
-                  <p className="discount2"><s>$16</s></p>
+                  <p className="discount2 discount21"><s>$16</s></p>
                 </Card.Text>
               </Card.Body>
             </Card>
@@ -73,7 +72,7 @@ export class SectionThree extends Component {
                 <Card.Text>
                   <p className="discription"> Urban Global Ltd </p>
                   <p className="subTitle"> 334 bought </p>
-                  <p className="cost"> from </p>
+                  <p className="cost11"> from </p>
                   <p className="costStyle">$39 </p>
                 </Card.Text>
               </Card.Body>
@@ -95,7 +94,7 @@ export class SectionThree extends Component {
                 <Card.Text>
                   <p className="discription"> </p>
                   <p className="subTitle"> 2888 bought </p>
-                  <p className="cost"> from </p>
+                  <p className="cost11"> from </p>
                   <p className="costStyle">$12.50 </p>
                 </Card.Text>
               </Card.Body>
@@ -118,7 +117,7 @@ export class SectionThree extends Component {
                 <Card.Text>
                   <p className="discription"> Albany </p>
                   <p className="subTitle"> 388 bought </p>
-                  <p className="cost"> from </p>
+                  <p className="cost1"> from </p>
                   <p className="costStyle"> $29 </p>
                   <p className="discount2"><s>$49</s></p>
                 </Card.Text>
@@ -140,7 +139,7 @@ export class SectionThree extends Component {
                 <Card.Text>
                   <p className="discription"> Kawau Cruises</p>
                   <p className="subTitle"> Sandspit 621 bought </p>
-                  <p className="cost"> from </p>
+                  <p className="cost1"> from </p>
                   <p className="costStyle">$44</p>
                   <p className="discount2"><s>$88</s></p>
                 </Card.Text>
@@ -160,7 +159,7 @@ export class SectionThree extends Component {
                 <Card.Text>
                   <p className="discription"> Waimarino.com</p>
                   <p className="subTitle"> 929 bought</p>
-                  <p className="cost"> from </p>
+                  <p className="cost1"> from </p>
                   <p className="costStyle"> $32 </p>
                   <p className="discount2"><s>$49</s></p>
                 </Card.Text>
@@ -180,7 +179,7 @@ export class SectionThree extends Component {
                 <Card.Text>
                   <p className="discription"> TNT Home Maintenance </p>
                   <p className="subTitle"> 147 bought </p>
-                  <p className="cost"> from </p>
+                  <p className="cost1"> from </p>
                   <p className="costStyle">$89 </p>
                   <p className="discount2"><s>$220</s></p>
                 </Card.Text>

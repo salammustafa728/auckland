@@ -94,7 +94,7 @@ export class Resturant extends Component {
                       Wrights Water Garden &The Frog and Lily Patumahoe
                     </p>
                     <p className="subTitle"> 575 bought </p>
-                    <p className="cost"> from </p>
+                    <p className="cost3"> from </p>
                     <p className="costStyle"> $8 </p>
                     <p className="discount"><s>$16</s></p>
                   </Card.Text>

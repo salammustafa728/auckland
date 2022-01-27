@@ -42,7 +42,7 @@
 .container2{
 
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 990px) {
   .containerTwo{
     position: relative;
     top: 10px;
@@ -51,20 +51,20 @@
   }
   .divSearch {
     position: relative;
-    bottom: 32px;
-    width: 50%;
+    bottom: 40px;
+    width: 54%;
     margin-left: 2px;
     z-index: inherit;
 }
 .btnSubscribe{
   position: relative;
-top: -38px;
-right: -179px;
+  top: -48px;
+  right: -203px;
 }
 .searchIcon{
   position: relative;
-right: -4%;
-top: 2px;
-z-index: 6;
+  right: -3%;
+  top: -1px;
+  z-index: 6;
 }
  }
