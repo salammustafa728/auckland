@@ -70,6 +70,12 @@
   left: 90%;
   color: #01b2ee;
 }
+.cost11 {
+  position: relative;
+  top: 0px;
+  left: 90%;
+  color: #01b2ee;
+}
 @media only screen and (max-width: 990px) {
   .CardDiv1 {
     display: block;

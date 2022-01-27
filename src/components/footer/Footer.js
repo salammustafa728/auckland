@@ -103,7 +103,7 @@ export class footer extends Component {
             </div>
           </Card.Body>
           <Card.Footer className="text-muted">
-            Privacy Policy © 2022 GrabOne Limited{" "}
+           Privacy Policy © 2022 GrabOne Limited{" "}
           </Card.Footer>
         </Card>
       </div>

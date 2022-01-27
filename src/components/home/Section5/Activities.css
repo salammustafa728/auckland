@@ -26,6 +26,12 @@
   top: 31px;
   left: 62%;
 }
+.cost112{
+  position: relative;
+      top: 36px;
+      left: 90%; 
+      color: #1eb3ec;
+}
 @media only screen and (max-width: 990px) {
     .cost112{
       position: relative;
