@@ -1,0 +1,50 @@
+
+.collectionBtn{
+    border-radius: 5px;
+    vertical-align: middle;
+    border: 2px solid #01b2ee;
+    padding: 8px 12px;
+    font-size: 13px;
+    font-weight: 700;
+    background-color: white;
+    text-align: center;
+    color: #01b2ee;
+    margin-left: 53px;
+}
+.viwposition{
+    margin-left: -238px;
+}
+.card-desc{
+    opacity: 0;
+    position: absolute;
+  height: 0;
+  top: 0;
+  opacity: 0;
+  background-color: #1eb3ec;
+  color: white;
+  cursor: pointer;
+}
+.card-desc p{
+    position: relative;
+    top: 30px;
+    text-align: center;
+}
+.card-desc:hover{
+    opacity: 1;
+    height: 60%;
+    width: 100%;
+}
+
+.decs{
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .viwposition{
+        margin-left: 10px;
+    }
+    } 
+ @media only screen and (max-width: 992px) {
+    
+    }
