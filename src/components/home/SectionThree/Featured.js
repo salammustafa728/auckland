@@ -137,8 +137,8 @@ export class SectionThree extends Component {
                   Kawau Cruises Return Pass for the Royal Mail
                 </Card.Title>
                 <Card.Text>
-                  <p className="discription"> Kawau Cruises</p>
-                  <p className="subTitle"> Sandspit 621 bought </p>
+                  <p className="discription"> Kawau Cruises Sandspit</p>
+                  <p className="subTitle">  621 bought </p>
                   <p className="cost1"> from </p>
                   <p className="costStyle">$44</p>
                   <p className="discount2"><s>$88</s></p>

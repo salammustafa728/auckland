@@ -40,11 +40,11 @@
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 990px) {
     .viwposition{
         margin-left: 10px;
     }
-    } 
- @media only screen and (max-width: 992px) {
-    
+    .collectionBtn{
+        margin-left: 45px;
     }
+    } 
