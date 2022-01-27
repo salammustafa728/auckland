@@ -72,7 +72,7 @@ export class SectionThree extends Component {
                 <Card.Text>
                   <p className="discription"> Urban Global Ltd </p>
                   <p className="subTitle"> 334 bought </p>
-                  <p className="cost11"> from </p>
+                  <p className="cost1"> from </p>
                   <p className="costStyle">$39 </p>
                 </Card.Text>
               </Card.Body>

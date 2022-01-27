@@ -24,6 +24,17 @@
     height: 60%;
     width: 100%;
 }
+.cost4{
+  position: relative;
+  top: 36px;
+  left: 93%; 
+  color: #1eb3ec;
+}
+.discount4{
+  position: relative;
+  top: 31px;
+  left: 62%;
+}
 @media only screen and (max-width: 990px) {
     .cost4{
       position: relative;

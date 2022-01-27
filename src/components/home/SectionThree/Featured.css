@@ -58,6 +58,13 @@
   opacity: 1;
   height: 60%;
 }
+.cost1{
+  position: relative;
+  top: 32px;
+  left: 90%;
+  color: #01b2ee;
+}
+
 @media only screen and (max-width: 990px) {
   .CardDiv1 {
     display: block;

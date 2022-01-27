@@ -96,7 +96,7 @@ export class Resturant extends Component {
                     <p className="subTitle"> 575 bought </p>
                     <p className="cost3"> from </p>
                     <p className="costStyle"> $8 </p>
-                    <p className="discount"><s>$16</s></p>
+                    <p className="discountRes"><s>$16</s></p>
                   </Card.Text>
                 </Card.Body>
               </Card>

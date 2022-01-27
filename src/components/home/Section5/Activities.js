@@ -93,7 +93,7 @@ export class Activities extends Component {
                     <p className="subTitle"> 50 bought </p>
                     <p className="cost112"> from </p>
                     <p className="costStyle"> $60 </p>
-                    <p className="discount"><s>$160</s></p>
+                    <p className="discount5"><s>$160</s></p>
                   </Card.Text>
                 </Card.Body>
               </Card>
