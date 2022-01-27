@@ -64,7 +64,12 @@
   left: 90%;
   color: #01b2ee;
 }
-
+.cost111{
+  position: relative;
+  top: 1px;
+  left: 90%;
+  color: #01b2ee;
+}
 @media only screen and (max-width: 990px) {
   .CardDiv1 {
     display: block;
@@ -99,6 +104,7 @@
     left: 90%;
     color: #01b2ee;
   }
+ 
   .discount2 {
     position: relative;
     top: 31px;
@@ -110,4 +116,5 @@
     position: relative;
     left: 78%;
   }
+ 
 }
