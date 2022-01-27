@@ -1,0 +1,19 @@
+body{
+    background-color: #f4f7fb;
+}
+.mainDiv{
+    margin: auto;
+    display: grid;
+    grid-template-rows: 800px 200px 950px 585px 565px 550px 560px 560px 550px 550px 550px;    
+    gap: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+   .mainDiv{
+    display: grid;
+    grid-template-rows: 999px 300px 2990px 1520px 1520px 1550px 1565px 1520px 1520px 1510px 1520px;     
+   }
+   } 
+@media only screen and (max-width: 992px) {
+   
+   }

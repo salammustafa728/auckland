@@ -1,0 +1,30 @@
+.listt {
+  margin-top: 20px;
+  margin-left: -106px;
+width: 278px;
+}
+.listTitle {
+  color: #01b2ee;
+}
+.pNum {
+  text-align: right;
+  font-size: 10px;
+  color: gray;
+  position: relative;
+  bottom: 18px;
+}
+
+.listItem {
+  height: 42px;
+}
+
+@media only screen and (max-width: 600px) {
+    .listt{
+       display: none;
+   }
+   } 
+   @media only screen and (max-width: 992px) {
+        .listt{
+       display: none;
+   }
+   }

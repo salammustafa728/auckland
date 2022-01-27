@@ -1,0 +1,101 @@
+:root {
+  --mainColor: #01b2ee;
+  --gray: rgb(99, 98, 98);
+}
+.headerimage {
+  margin: auto;
+  text-align: center;
+  margin-top: 30px;
+  width: 100%;
+}
+.like {
+  position: absolute;
+  top: 7px;
+  right: 11px;
+  border-radius: 40%;
+  background: white;
+}
+.containerOne {
+  position: relative;
+}
+.cardsStyle {
+  position: relative;
+  top: 30px;
+  width: 73%;
+}
+.discription {
+  color: var(--mainColor);
+}
+.subTitle {
+  color: var(--gray);
+  position: absolute;
+  bottom: 0;
+}
+.cost {
+  position: relative;
+  top: -4px;
+  left: 90%;
+  color: blue;
+  width: 50px;
+  color: var(--mainColor);
+}
+.costStyle {
+  position: absolute;
+  bottom: -21px;
+  right: 16px;
+  font-size: 39px;
+  color: var(--mainColor);
+  font-weight: 600;
+}
+.cardCol {
+  display: grid;
+  grid-template-columns: 397px 397px;
+  position: relative;
+  left: 0;
+  top: 0;
+  height: 207px;
+}
+.pOverflow {
+  
+}
+.card-desc{
+    opacity: 0;
+    position: absolute;
+  height: 0;
+  top: 0;
+  opacity: 0;
+  background-color: #1eb3ec;
+  color: white;
+  cursor: pointer;
+}
+.card-desc p{
+    position: relative;
+    top: 30px;
+    text-align: center;
+}
+.card-desc:hover{
+    opacity: 1;
+    height: 60%;
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .cardCol {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .cardCol {
+    position: relative;
+    left: 30px;
+    top: 30px;
+  }
+  .costStyle {
+    bottom: -23px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .cardCol {
+    left: 30px;
+    top: 10px;
+  }
+}

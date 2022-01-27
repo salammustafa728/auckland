@@ -1,0 +1,70 @@
+.containerTwo {
+  background-color: white;
+  height: 40%;
+  margin-top: 13px;
+  margin-bottom: 13px;
+  z-index: 5;
+}
+.btnSubscribe {
+  position: relative;
+  top: -46px;
+  right: -404px;
+  height: 38px;
+  box-shadow: 0 0 8px 0 rgba(1, 178, 238, 0.5);
+  border: none;
+  background: #01b2ee;
+  border-radius: 0 5px 5px 0;
+  font-size: 15px;
+  font-weight: 500;
+  color: white;
+  z-index: 5;
+  height: 46px;
+}
+.divSearch {
+    margin-top: 7px;
+    margin-bottom: -23px;
+    width: 440px;
+    margin-left: 12px;
+    z-index: inherit;
+}
+.searchIcon{
+    position: relative;
+    right: -34%;
+    top: 35px;
+    z-index: inherit;
+}
+.ptext{
+    color: #01b2ee;
+    margin-top: 30px;
+    font-size: 20px;
+    z-index: inherit;
+}
+.container2{
+
+}
+@media only screen and (max-width: 600px) {
+  .containerTwo{
+    position: relative;
+    top: 10px;
+    bottom: 10px;
+    height: 150px;
+  }
+  .divSearch {
+    position: relative;
+    bottom: 32px;
+    width: 50%;
+    margin-left: 2px;
+    z-index: inherit;
+}
+.btnSubscribe{
+  position: relative;
+top: -38px;
+right: -179px;
+}
+.searchIcon{
+  position: relative;
+right: -4%;
+top: 2px;
+z-index: 6;
+}
+ }
